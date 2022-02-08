@@ -7,5 +7,6 @@ Also, there are plenty of Chinese counterfeits of the module that don't work. I 
 This one works on 13.56 MHz but RFID has a couple of other frequencies like 125 kHz as well which will not work with this module, make sure you have tag of 13.56 MHz only. 
 I have implemented Arduino power saving which increases battery life to a great extent. The sleep power consumption is close to 4 mA and in active mode it is around 15 mA at 3.3V.
 
+There are 2 versions of the file, the minimal version uses simplest code for least time awake and has tag id hard coded. The trial code has several additional features to add and delete tags.
 
 Here's a link to article: https://medium.com/@vardhann/arduino-rfid-door-lock-but-better-a6d2329b2dcc
